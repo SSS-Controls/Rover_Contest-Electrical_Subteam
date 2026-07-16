@@ -2216,6 +2216,122 @@
 		)
 	)
 	(symbol
+		(lib_id "Rover:LSM6DSV")
+		(at 139.7 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77b3f28d-02b0-402c-b58d-e064d280a819")
+		(property "Reference" "U3"
+			(at 141.8433 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LSM6DSV"
+			(at 146.304 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rover:LSM6DSV"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd8a493f-61d3-4f26-8c0f-55a505514c5f")
+		)
+		(pin "5"
+			(uuid "8f7a6ede-3730-4df9-b81c-e91fc03f2b54")
+		)
+		(pin "4"
+			(uuid "5ed9243a-6ef1-4ebd-8175-ad5e8dee71fa")
+		)
+		(pin "1"
+			(uuid "7a2a7c0c-3045-40d0-ad64-8990976044de")
+		)
+		(pin "3"
+			(uuid "44981650-4294-4520-abba-132b9b118687")
+		)
+		(pin "8"
+			(uuid "43fedbe7-669b-4193-9126-ac2a09e5a6c5")
+		)
+		(pin "13"
+			(uuid "fc8abecd-f6f5-4e56-8955-7ca314a4d247")
+		)
+		(pin "12"
+			(uuid "bb80a53a-fdb4-4a5d-bfda-6382cbdfa0e8")
+		)
+		(pin "14"
+			(uuid "ca9d8178-f8b9-4301-a6bf-23cc011dd551")
+		)
+		(pin "6"
+			(uuid "8bf8e15a-f391-415d-b8f6-1a22e17c8247")
+		)
+		(pin "10"
+			(uuid "9dddb3fa-3e37-407d-a1db-a11eb06911be")
+		)
+		(pin "9"
+			(uuid "8cbf4257-340c-4b2e-babd-bb3c578e8c90")
+		)
+		(pin "7"
+			(uuid "4a2ee47c-692c-4264-9812-f10556b2552d")
+		)
+		(pin "11"
+			(uuid "b5c77ef0-130e-429e-8580-f4e438ba8a03")
+		)
+		(instances
+			(project "testPCB"
+				(path "/c8b9252f-00c2-4c2c-9819-e55a52b9aa74"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 102.87 22.86 0)
 		(unit 1)
