@@ -507,13 +507,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -669,7 +670,7 @@
         "uuid": "c8b9252f-00c2-4c2c-9819-e55a52b9aa74"
       }
     ],
-    "used_designators": "U1-2,D1-2,#PWR1-9,C1-2,R1-2",
+    "used_designators": "U1-2,D1-2,#PWR1-9,C1-2,J1,R1-2",
     "variants": []
   },
   "sheets": [
