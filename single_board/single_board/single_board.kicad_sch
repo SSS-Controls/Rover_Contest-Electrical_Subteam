@@ -6698,16 +6698,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Board critical 5V ESD Protection"
-		(exclude_from_sim no)
-		(at 82.55 47.752 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0a67011c-3837-4164-ac96-62dc9352aaa5")
-	)
 	(text "Mode 1\nSPI 4-wire"
 		(exclude_from_sim no)
 		(at 319.024 104.394 0)
@@ -6721,7 +6711,7 @@
 	)
 	(text "AH1014\nSplit termination resistor values\nC_split 4.7nf-10nf"
 		(exclude_from_sim no)
-		(at 258.064 69.342 0)
+		(at 261.366 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6730,19 +6720,9 @@
 		)
 		(uuid "120449fb-194d-4b0a-abe6-9d9befd2c42f")
 	)
-	(text "Look into common ground/shielding for CAN bus"
+	(text "Data line resistors &\nCurrent limiting resistors"
 		(exclude_from_sim no)
-		(at 306.07 60.198 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "26561dcd-7323-4e24-905f-cafdaa8cfbb4")
-	)
-	(text "Data line resistors &\nCurrent limitin resistors"
-		(exclude_from_sim no)
-		(at 388.366 61.214 0)
+		(at 371.602 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6867,17 +6847,6 @@
 		)
 		(uuid "af78b96e-7181-4c5f-92c7-753ea3a1cd01")
 	)
-	(text "Ground standby; less features to configure.\nAssuming power saving is minimal"
-		(exclude_from_sim no)
-		(at 199.136 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b242df13-3061-4dca-9283-7406be6fb32d")
-	)
 	(text "Extra 1uf decoupling"
 		(exclude_from_sim no)
 		(at 159.766 105.156 0)
@@ -6919,17 +6888,6 @@
 			)
 		)
 		(uuid "d6b7a856-76e8-4112-872d-64cb0c66f159")
-	)
-	(text "Consider 52 ohm with 68 ohm. \n120 ohm series resistance.\nCreates two low pass filters with different cutoff frequencies.\n"
-		(exclude_from_sim no)
-		(at 258.318 82.296 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d730b8e8-47f1-4c0b-a682-e6b06deee8fc")
 	)
 	(text "CAN Transciever"
 		(exclude_from_sim no)
@@ -15601,7 +15559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "62"
+		(property "Value" "60"
 			(at 276.86 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16553,7 +16511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "62"
+		(property "Value" "60"
 			(at 276.86 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
