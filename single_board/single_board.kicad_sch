@@ -12187,6 +12187,16 @@
 		)
 		(uuid "1b9cbe9b-66f0-44a8-becc-68060316082f")
 	)
+	(label "DP"
+		(at 49.53 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e24cbac-9035-4435-86a7-51d5da725f27")
+	)
 	(label "SWCLK"
 		(at 306.07 166.37 180)
 		(effects
@@ -12956,6 +12966,16 @@
 			(justify left bottom)
 		)
 		(uuid "bd8a3422-ad4c-4038-b5f9-6d1b2f1fd7fe")
+	)
+	(label "DN"
+		(at 49.53 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdab3d38-7f17-4385-aeaf-0e3d3f66e5c8")
 	)
 	(label "PWM4"
 		(at 73.66 220.98 0)
