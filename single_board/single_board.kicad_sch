@@ -10697,7 +10697,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 177.8) (xy 231.14 177.8)
+			(xy 306.07 220.98) (xy 276.86 220.98)
 		)
 		(stroke
 			(width 0)
@@ -11364,6 +11364,16 @@
 			(type default)
 		)
 		(uuid "9541ab8f-adbd-498e-95b9-d0d812357017")
+	)
+	(wire
+		(pts
+			(xy 217.17 50.8) (xy 217.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af4ef29-659f-4f4e-92ec-078e518a0f74")
 	)
 	(wire
 		(pts
@@ -12525,6 +12535,16 @@
 		)
 		(uuid "32795cdd-bf71-4f76-8e2a-da9bbe372a7a")
 	)
+	(label "CAN_STB"
+		(at 276.86 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "347773dd-f357-446c-b385-b3558f3e7046")
+	)
 	(label "DIR6"
 		(at 73.66 256.54 0)
 		(effects
@@ -12864,6 +12884,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ae8e10a-a8ff-4a26-a90d-6125e83441a1")
+	)
+	(label "CAN_STB"
+		(at 217.17 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c9d7dce-c1fd-4371-95c8-aeead3e6d5c2")
 	)
 	(label "LASER_SIG"
 		(at 120.65 254 180)
@@ -13246,12 +13276,12 @@
 		(uuid "e2393287-3b06-470e-8b58-817e575070a1")
 	)
 	(label "HEARTBEAT"
-		(at 231.14 177.8 180)
+		(at 276.86 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e45f6905-a471-47ab-bcda-8684eceda6f5")
 	)
@@ -13725,7 +13755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 40.64 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14463,7 +14493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 105.41 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -15830,7 +15860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 109.22 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16033,85 +16063,6 @@
 			(project "single_board"
 				(path "/ae10586e-ebf8-402d-a979-c2f011cdeee2"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3214b360-a70d-4164-84f8-7b5c89309c8a")
-		(property "Reference" "#PWR016"
-			(at 217.17 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8152fd85-ea5a-4e5b-b919-2eea89a0af9f")
-		)
-		(instances
-			(project "single_board"
-				(path "/ae10586e-ebf8-402d-a979-c2f011cdeee2"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18024,6 +17975,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 217.17 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4edff114-de23-43c9-8a39-d59ba946552c")
+		(property "Reference" "R28"
+			(at 214.63 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 214.63 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 217.17 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 217.17 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3614acd1-f8ed-40e8-933b-f1a0ad4b976d")
+		)
+		(pin "2"
+			(uuid "ad96b4ca-b2c2-479e-8e75-ffe320cf7d68")
+		)
+		(instances
+			(project "single_board"
+				(path "/ae10586e-ebf8-402d-a979-c2f011cdeee2"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 261.62 0)
 		(mirror y)
@@ -19295,8 +19327,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 201.93 187.96 0)
-		(mirror y)
+		(at 306.07 231.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19307,7 +19338,7 @@
 		(fields_autoplaced yes)
 		(uuid "633e0470-63f3-4626-aaf9-2aa052a0e212")
 		(property "Reference" "R20"
-			(at 204.47 186.6899 0)
+			(at 303.53 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19318,7 +19349,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 204.47 189.2299 0)
+			(at 303.53 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19329,7 +19360,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 201.93 187.96 0)
+			(at 306.07 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19340,7 +19371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 187.96 0)
+			(at 306.07 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19351,7 +19382,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 201.93 187.96 0)
+			(at 306.07 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21078,6 +21109,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 217.17 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7780533a-d639-4616-bca9-10b5bfc3d9d6")
+		(property "Reference" "#PWR058"
+			(at 217.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2667bd85-ac25-4a13-9b8f-3518f417815d")
+		)
+		(instances
+			(project "single_board"
+				(path "/ae10586e-ebf8-402d-a979-c2f011cdeee2"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 68.58 240.03 180)
 		(unit 1)
@@ -22741,7 +22851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8pF"
+		(property "Value" "10pF"
 			(at 340.36 209.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24571,7 +24681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 109.22 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -24709,8 +24819,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 190.5 0)
-		(mirror y)
+		(at 306.07 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24721,7 +24830,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5cf9d82-91fd-4f46-9ccf-0e9bbb31c8d3")
 		(property "Reference" "#PWR071"
-			(at 201.93 196.85 0)
+			(at 306.07 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24732,7 +24841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 195.58 0)
+			(at 306.07 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24743,7 +24852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 190.5 0)
+			(at 306.07 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24754,7 +24863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 190.5 0)
+			(at 306.07 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24765,7 +24874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 190.5 0)
+			(at 306.07 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28435,7 +28544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 113.03 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -28694,7 +28803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 109.22 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -29552,8 +29661,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 201.93 181.61 270)
-		(mirror x)
+		(at 306.07 224.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29564,7 +29672,7 @@
 		(fields_autoplaced yes)
 		(uuid "f341a91f-a0eb-4afa-99fa-f02a45e4d9d9")
 		(property "Reference" "D7"
-			(at 198.12 181.9274 90)
+			(at 309.88 225.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29575,7 +29683,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 198.12 184.4674 90)
+			(at 309.88 227.6474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29586,7 +29694,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 201.93 181.61 0)
+			(at 306.07 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29597,7 +29705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 181.61 0)
+			(at 306.07 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29608,7 +29716,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 201.93 181.61 0)
+			(at 306.07 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29619,7 +29727,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 201.93 181.61 0)
+			(at 306.07 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30640,7 +30748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8pF"
+		(property "Value" "10pF"
 			(at 323.85 209.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
