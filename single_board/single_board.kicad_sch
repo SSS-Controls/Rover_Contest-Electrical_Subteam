@@ -9944,8 +9944,44 @@
 		(uuid "fc89b8a0-63a0-4a6f-a2b9-71528620c0f5")
 	)
 	(no_connect
+		(at 214.63 142.24)
+		(uuid "010067b4-91cb-42c2-82e8-71d6ae0e3350")
+	)
+	(no_connect
+		(at 260.35 147.32)
+		(uuid "0b8f844f-9bf0-4f7e-951e-bb1f080ac43a")
+	)
+	(no_connect
+		(at 214.63 180.34)
+		(uuid "1178a182-8a82-45e7-a0aa-ff4fca04448a")
+	)
+	(no_connect
+		(at 214.63 134.62)
+		(uuid "131db0f6-dfde-4030-b86f-b31067ce600e")
+	)
+	(no_connect
+		(at 260.35 129.54)
+		(uuid "1aff611b-f4e9-42d7-9f5f-0162b9039009")
+	)
+	(no_connect
+		(at 260.35 149.86)
+		(uuid "2db3be51-a4ad-4801-8578-c4790728cc4c")
+	)
+	(no_connect
+		(at 214.63 198.12)
+		(uuid "3534f0f8-3764-4410-9cd9-276d7399b859")
+	)
+	(no_connect
 		(at 43.18 60.96)
 		(uuid "372095d9-d3d5-4277-922c-0e0f9a3d4ec7")
+	)
+	(no_connect
+		(at 214.63 220.98)
+		(uuid "3ce34a1f-2962-48a2-b23a-2732d3c4a94f")
+	)
+	(no_connect
+		(at 214.63 208.28)
+		(uuid "3d505108-0dae-4fac-8278-0f265bec558a")
 	)
 	(no_connect
 		(at 229.87 114.3)
@@ -9960,12 +9996,96 @@
 		(uuid "62715287-8a02-48c3-bead-21283cef7e77")
 	)
 	(no_connect
+		(at 260.35 167.64)
+		(uuid "79303022-51bf-4d84-b709-7e2bcdc0cb02")
+	)
+	(no_connect
+		(at 214.63 167.64)
+		(uuid "82529d47-6cab-45c7-9e71-5a7b68ef0822")
+	)
+	(no_connect
+		(at 214.63 137.16)
+		(uuid "86478a80-3dec-47d7-be20-3591fca1fa11")
+	)
+	(no_connect
+		(at 214.63 144.78)
+		(uuid "8857edc1-16c0-4181-85e2-41018aaf451c")
+	)
+	(no_connect
+		(at 260.35 243.84)
+		(uuid "8c04267f-7336-43c6-864c-1df8aa97d5ec")
+	)
+	(no_connect
+		(at 214.63 139.7)
+		(uuid "9357342c-4d67-413e-9daf-a24caf429d97")
+	)
+	(no_connect
+		(at 260.35 190.5)
+		(uuid "93c82d36-52b9-4bd2-a4ba-b7bcab338ca0")
+	)
+	(no_connect
+		(at 214.63 160.02)
+		(uuid "99e89dff-f625-4349-84d6-896405707c38")
+	)
+	(no_connect
+		(at 214.63 218.44)
+		(uuid "a45e8c58-9848-4ff8-80f3-047348e55905")
+	)
+	(no_connect
+		(at 260.35 162.56)
+		(uuid "a9ac194a-63fb-4d3f-badc-5ab8534cf42e")
+	)
+	(no_connect
+		(at 260.35 172.72)
+		(uuid "b677ad7e-e976-49b6-88db-ff3e87042d36")
+	)
+	(no_connect
+		(at 260.35 170.18)
+		(uuid "c26ca5e4-a7d8-483f-9074-295199ea0af2")
+	)
+	(no_connect
+		(at 214.63 215.9)
+		(uuid "c715f83e-dda2-4775-9b80-ec70e450ff2e")
+	)
+	(no_connect
+		(at 260.35 137.16)
+		(uuid "c8f338a4-a1be-4e20-b7c7-9909a007ae69")
+	)
+	(no_connect
 		(at 363.22 129.54)
 		(uuid "cfe23643-95ec-4fa1-acf6-e9fd3f123893")
 	)
 	(no_connect
 		(at 363.22 133.35)
 		(uuid "da6eb4a3-9c20-4caa-bb07-a93c3686186b")
+	)
+	(no_connect
+		(at 260.35 195.58)
+		(uuid "dacec8b8-5548-498b-b818-c6c13d5b32b1")
+	)
+	(no_connect
+		(at 260.35 144.78)
+		(uuid "e6bac53a-4cd5-4e10-a403-fd157c76229d")
+	)
+	(no_connect
+		(at 260.35 193.04)
+		(uuid "ecafd658-9006-42a0-a6a9-1ea7bbb42d4b")
+	)
+	(no_connect
+		(at 214.63 177.8)
+		(uuid "ee2fe858-3b50-4e34-b8ba-96be98aabe0e")
+	)
+	(no_connect
+		(at 214.63 205.74)
+		(uuid "f19257fa-eb17-4b07-9b23-1262c230fd0f")
+	)
+	(no_connect
+		(at 214.63 195.58)
+		(uuid "f4568808-bbea-4bec-a474-3247c8ea3061")
+	)
+	(no_connect
+		(at 214.63 193.04)
+		(uuid "f96ab71b-a56f-4b54-8e72-3c70bc1d110f")
 	)
 	(wire
 		(pts
@@ -10679,7 +10799,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 152.4) (xy 335.28 152.4)
+			(xy 321.31 152.4) (xy 335.28 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12247,6 +12367,16 @@
 		)
 		(uuid "24be0413-ad78-4320-81fa-307d154771b3")
 	)
+	(label "v3v3IN_debug"
+		(at 321.31 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27854178-b3b1-416b-9bf3-9918e187b323")
+	)
 	(label "v3v3IN"
 		(at 66.04 107.95 0)
 		(effects
@@ -12757,16 +12887,6 @@
 		)
 		(uuid "87cd7801-ef9e-4619-8735-fbc80a228bf3")
 	)
-	(label "v3v3IN"
-		(at 311.15 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87df68f1-ddb8-4b28-9bc7-f2098e1bdcca")
-	)
 	(label "INT1"
 		(at 396.24 129.54 0)
 		(effects
@@ -12847,7 +12967,7 @@
 		)
 		(uuid "9b1f6135-65f6-47ba-868a-a969f6cc6ebc")
 	)
-	(label "v3v3IN"
+	(label "v3v3IN_debug"
 		(at 323.85 130.81 0)
 		(effects
 			(font
@@ -12906,6 +13026,16 @@
 			(justify right bottom)
 		)
 		(uuid "acd3318d-57df-4e35-8fe0-2479d35c7a2a")
+	)
+	(label "v3v3IN_debug"
+		(at 311.15 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad2c2aa0-32f5-48bd-85ef-b7112bee2755")
 	)
 	(label "ENC2_B"
 		(at 27.94 172.72 0)
@@ -13266,16 +13396,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa401e64-6b2b-414c-a2b0-ea903e18ec54")
-	)
-	(label "v3v3IN"
-		(at 327.66 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fae3db50-5ef5-4a99-9667-098c48979891")
 	)
 	(label "ENC5_A"
 		(at 27.94 237.49 0)
