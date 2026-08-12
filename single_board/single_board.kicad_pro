@@ -47,7 +47,7 @@
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -74,16 +74,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.25,
-          "via_gap": 0.2,
-          "width": 0.1537
-        },
-        {
-          "gap": 0.12,
-          "via_gap": 0.2,
-          "width": 0.2042
         }
       ],
       "drc_exclusions": [],
@@ -170,7 +160,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -539,20 +529,77 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "diff_pair_gap": 0.3,
+        "diff_pair_width": 0.1717,
+        "name": "120",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.7209,
+        "diff_pair_gap": 2.0,
+        "diff_pair_width": 0.2403,
+        "name": "120w",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.8718,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2906,
+        "name": "90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "5V": "rgb(255, 149, 254)",
+      "v3v3": "rgb(253, 255, 155)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "90",
+        "pattern": "/USB-DP"
+      },
+      {
+        "netclass": "90",
+        "pattern": "/USB-DN"
+      },
+      {
+        "netclass": "120w",
+        "pattern": "/can_DP"
+      },
+      {
+        "netclass": "120w",
+        "pattern": "/can_DN"
+      },
+      {
+        "netclass": "90",
+        "pattern": "/DN"
+      },
+      {
+        "netclass": "90",
+        "pattern": "/DP"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../Desktop/test out/",
       "specctra_dsn": "",
       "vrml": ""
     },
