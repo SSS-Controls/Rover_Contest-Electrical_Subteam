@@ -24093,7 +24093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
 			(at 397.51 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -28946,7 +28946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
 			(at 397.51 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -29746,7 +29746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
 			(at 397.51 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -30328,7 +30328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
 			(at 397.51 217.17 0)
 			(hide yes)
 			(show_name no)
