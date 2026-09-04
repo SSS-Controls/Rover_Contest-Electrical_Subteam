@@ -29091,6 +29091,22 @@
 		)
 	)
 	(segment
+		(start 60.65 122.92)
+		(end 60.65 121.05)
+		(width 0.15)
+		(layer "In2.Cu")
+		(net "/IMU_NSS")
+		(uuid "06de6baf-8be7-5d89-976e-38c9643672a3")
+	)
+	(segment
+		(start 61.3 123.57)
+		(end 60.65 122.92)
+		(width 0.15)
+		(layer "In2.Cu")
+		(net "/IMU_NSS")
+		(uuid "a5f8007b-089f-5b1b-99f4-be709e92c545")
+	)
+	(segment
 		(start 116.379823 119.083794)
 		(end 116.169823 118.873794)
 		(width 0.2)
