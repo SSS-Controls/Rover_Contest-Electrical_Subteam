@@ -8832,6 +8832,16 @@
 		)
 		(uuid "5770a3e4-d1de-44cc-8056-17e00a0d2388")
 	)
+	(text "Undecided connector type to comms"
+		(exclude_from_sim no)
+		(at 319.278 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58add697-6d28-482f-9861-1064924121d2")
+	)
 	(text "1.27mm pitch\nDo not populate"
 		(exclude_from_sim no)
 		(at 366.268 171.704 0)
@@ -8898,7 +8908,7 @@
 	)
 	(text "Communication Interface"
 		(exclude_from_sim no)
-		(at 309.88 162.306 0)
+		(at 307.34 165.608 0)
 		(effects
 			(font
 				(size 0.762 0.762)
