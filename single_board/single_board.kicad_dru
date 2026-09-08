@@ -1,0 +1,8 @@
+(version 1)
+
+# These footprints use 0.50 mm pitch and 0.30 mm wide signal pads.
+# Keep the project's 0.22 mm default clearance elsewhere.
+(rule "U5 and J2 fine pitch pads"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && (A.memberOfFootprint('U5') || A.memberOfFootprint('J2'))) || (B.Type == 'Pad' && (B.memberOfFootprint('U5') || B.memberOfFootprint('J2')))")
+  (constraint clearance (min 0.20mm)))
