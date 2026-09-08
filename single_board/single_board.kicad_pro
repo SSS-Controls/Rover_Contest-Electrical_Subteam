@@ -574,11 +574,11 @@
       },
       {
         "netclass": "120w",
-        "pattern": "/can_DP"
+        "pattern": "/CAN_DP"
       },
       {
         "netclass": "120w",
-        "pattern": "/can_DN"
+        "pattern": "/CAN_DN"
       },
       {
         "netclass": "90",
