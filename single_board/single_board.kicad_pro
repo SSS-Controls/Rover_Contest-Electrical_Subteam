@@ -574,11 +574,11 @@
       },
       {
         "netclass": "120w",
-        "pattern": "/CAN_DP"
+        "pattern": "/can_DP"
       },
       {
         "netclass": "120w",
-        "pattern": "/CAN_DN"
+        "pattern": "/can_DN"
       },
       {
         "netclass": "90",
@@ -737,7 +737,7 @@
         "uuid": "ae10586e-ebf8-402d-a979-c2f011cdeee2"
       }
     ],
-    "used_designators": "D1-10,#PWR1-188,C1-72,SW1-2,H1-8,#FLG1-6,R1-56,J1-52,TP1-4,U1-10,Y1-2,F1-2,Q1-10",
+    "used_designators": "D1-16,#PWR1-188,C1-72,SW1-2,H1-8,#FLG1-6,R1-56,J1-52,TP1-4,U1-10,Y1-2,F1-2,Q1-10",
     "variants": []
   },
   "sheets": [
