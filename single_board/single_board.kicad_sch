@@ -12117,7 +12117,7 @@
 		(uuid "008e6205-08af-43c6-9a85-14cdac837f64")
 	)
 	(label "UART5_RX"
-		(at 292.1 168.91 180)
+		(at 292.1 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12957,7 +12957,7 @@
 		(uuid "9b1f6135-65f6-47ba-868a-a969f6cc6ebc")
 	)
 	(label "UART5_TX"
-		(at 292.1 171.45 180)
+		(at 292.1 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13247,7 +13247,7 @@
 		(uuid "e58598bd-9c42-4366-ba3b-a23656c3d766")
 	)
 	(label "UART4_RX"
-		(at 290.83 149.86 180)
+		(at 290.83 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13257,7 +13257,7 @@
 		(uuid "e6d4b479-fa6a-4708-a014-ecfeb4582a74")
 	)
 	(label "UART4_TX"
-		(at 290.83 152.4 180)
+		(at 290.83 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
