@@ -15091,7 +15091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22bc932a-e92c-4435-8978-91607f994dc6")
+		(uuid "22bc932a-e92c-4435-8978-91607f994dc7")
 		(property "Reference" "#PWR033"
 			(at 133.35 55.88 0)
 			(hide yes)
@@ -15147,7 +15147,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bbecb35-dc17-48cb-920f-625e5e4c4237")
+			(uuid "3bbecb35-dc17-48cb-920f-625e5e4c4238")
 		)
 		(instances
 			(project "single_board"
@@ -24229,7 +24229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99b36661-90f2-49b7-a52d-addffdbd57ca")
+		(uuid "99b36661-90f2-49b7-a52d-addffdbd57cb")
 		(property "Reference" "Q1"
 			(at 123.19 45.72 90)
 			(show_name no)
@@ -24287,13 +24287,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "bf079707-cbab-4075-9500-0d15624e503d")
+			(uuid "bf079707-cbab-4075-9500-0d15624e503e")
 		)
 		(pin "1"
-			(uuid "d252d81b-7502-4ed6-bb03-5de0e55f5a43")
+			(uuid "d252d81b-7502-4ed6-bb03-5de0e55f5a44")
 		)
 		(pin "2"
-			(uuid "56edbb31-5a92-4e1a-b7c7-4f5e4045b372")
+			(uuid "56edbb31-5a92-4e1a-b7c7-4f5e4045b373")
 		)
 		(instances
 			(project "single_board"
@@ -29810,7 +29810,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "eca13502-202a-4666-a7e9-f746ee7e7d7c")
+		(uuid "eca13502-202a-4666-a7e9-f746ee7e7d7d")
 		(property "Reference" "C11"
 			(at 59.69 48.2662 0)
 			(show_name no)
@@ -29867,10 +29867,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f0186034-622a-4afd-b15e-d25dbd2f6226")
+			(uuid "f0186034-622a-4afd-b15e-d25dbd2f6227")
 		)
 		(pin "1"
-			(uuid "50c812cd-de53-4c38-912d-1286e0e0b8db")
+			(uuid "50c812cd-de53-4c38-912d-1286e0e0b8dc")
 		)
 		(instances
 			(project "single_board"
