@@ -63,7 +63,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 3,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.5
@@ -513,7 +513,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.22,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -737,7 +737,7 @@
         "uuid": "ae10586e-ebf8-402d-a979-c2f011cdeee2"
       }
     ],
-    "used_designators": "#PWR1-188,D1-10,C1-72,H1-8,SW1-2,J1-52,#FLG1-6,R1-56,TP1-4,U1-10,Y1-2,F1-2,Q1-10",
+    "used_designators": "D1-17,#PWR1-198,C1-72,SW1-2,H1-8,#FLG1-6,R1-63,J1-71,TP1-4,U1-10,Y1-2,F1-2,Q1-10",
     "variants": []
   },
   "sheets": [

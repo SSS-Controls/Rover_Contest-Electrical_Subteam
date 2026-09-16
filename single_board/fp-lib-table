@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Missing 3D Models") (type "KiCad") (uri "${KIPRJMOD}/Missing 3D models/Missing 3D Models.pretty") (options "") (descr ""))
+)
