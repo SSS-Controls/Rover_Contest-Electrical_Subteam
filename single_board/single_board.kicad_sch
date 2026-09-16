@@ -8896,18 +8896,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 275.59 147.32)
-		(end 344.17 193.04)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "38e7b02e-170a-4c9b-83b1-1d3e46b97f12")
-	)
 	(text "Mode 0\nSPI 4-wire"
 		(exclude_from_sim no)
 		(at 364.744 146.304 0)
