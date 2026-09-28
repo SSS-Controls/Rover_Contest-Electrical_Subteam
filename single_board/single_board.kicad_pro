@@ -556,6 +556,78 @@
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB_supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -587,6 +659,26 @@
       {
         "netclass": "90",
         "pattern": "/DP"
+      },
+      {
+        "netclass": "Power_5V",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "Power_3V3",
+        "pattern": "v3v3"
+      },
+      {
+        "netclass": "Power_3V3",
+        "pattern": "/v3v3IN"
+      },
+      {
+        "netclass": "USB_supply",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GND"
       }
     ]
   },
@@ -737,7 +829,7 @@
         "uuid": "ae10586e-ebf8-402d-a979-c2f011cdeee2"
       }
     ],
-    "used_designators": "D1-17,#PWR1-198,C1-72,SW1-2,H1-8,#FLG1-6,R1-63,J1-71,TP1-4,U1-10,Y1-2,F1-2,Q1-10",
+    "used_designators": "D1-13,D16-24,#PWR1-215,C1-72,SW1-2,H1-8,#FLG1-6,R1-69,J1-56,TP1-4,U1-10,Y1-2,F1-2,Q1-10",
     "variants": []
   },
   "sheets": [
